@@ -17,7 +17,7 @@ const InfoSection = () => {
         <article className="mx-auto max-w-[327px] sm:max-w-[442px] md:my-auto">
           <div className="mb-10 max-w-[250px] sm:max-w-[411px]">
             <h1 className="h3-semibold text-secondary2 dark:text-background2 sm:text-[30px] sm:font-bold sm:leading-[40px]">
-              Join a thriving community of entrepreneurs and developers.
+              Real-time social platform built with Next.js + WebSockets
             </h1>
           </div>
           {/* Info cards */}
@@ -26,20 +26,21 @@ const InfoSection = () => {
               className="bg-red10"
               fillIcon={<FillIcon.Business className="fill-red90" />}
             >
-              Connect with other indie hackers running online businesses.
+              Instant messaging, live user status, and infinite scroll, powered
+              by WebSockets
             </Info>
             <Info
               className="bg-yellow10"
               fillIcon={<FillIcon.Feedback className="fill-yellow" />}
             >
-                              Help us build the best community for people like you.
-
+              Next.js 14 App Router + Tailwind · 25 % faster loads · 35 % higher
+              engagement
             </Info>
             <Info
               className="bg-blue10"
               fillIcon={<FillIcon.Inbox className="fill-blue" />}
             >
-              Get the best new stories from founders in your inbox
+              Sleek, social platform with group engagement features
             </Info>
           </div>
         </article>

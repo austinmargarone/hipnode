@@ -24,16 +24,17 @@ const LogInInfoSection = () => {
               className="bg-green10"
               fillIcon={<FillIcon.Inbox className="fill-green" />}
             >
-              Did you join before Febu need to{" "}
-              <span className="text-red80">connect</span> an email address to
-              your username.
+              Want to explore the app? Use the demo account:{" "}
+              <span className="text-red80">demo@hipnode.com</span> Password:{" "}
+              <span className="text-red80">Demo1234</span>
             </Info>
             <Info
               className="bg-yellow10"
               fillIcon={<FillIcon.Thunderbolt className="fill-yellow" />}
             >
-              Trouble logging in? <span className="text-red80">Reset</span> your
-              password.
+              Real-time feed, instant messaging, and live status powered by
+              <span className="text-red80"> WebSockets</span> + Next.js App
+              Router
             </Info>
           </div>
         </article>
