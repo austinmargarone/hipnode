@@ -32,7 +32,8 @@ const InfoSection = () => {
               className="bg-yellow10"
               fillIcon={<FillIcon.Feedback className="fill-yellow" />}
             >
-              Get feedback on your business ideas, landing pages, and more.
+                              Help us build the best community for people like you.
+
             </Info>
             <Info
               className="bg-blue10"

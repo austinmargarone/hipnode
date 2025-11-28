@@ -24,7 +24,7 @@ const LogInInfoSection = () => {
               className="bg-green10"
               fillIcon={<FillIcon.Inbox className="fill-green" />}
             >
-              Did you join before February 2017? You need to{" "}
+              Did you join before Febu need to{" "}
               <span className="text-red80">connect</span> an email address to
               your username.
             </Info>
